@@ -1,0 +1,21 @@
+# Add 'devops' label to any change related to docker, environment configurations...
+devops:
+  - .github/**
+  - Docker/**
+  - docker-compose.prod.yml
+  - docker-compose.yml
+  - inject-conf.js
+
+storybook:
+  - client/stories/**
+
+# Add 'frontend' label to any change within the 'client' dir
+frontend:
+  - client/**
+
+# Add 'backend' label to any change within the 'api' dir
+backend:
+  - api/**
+# Add 'test' label to any change within the 'src' dir
+test:
+  - src/**
