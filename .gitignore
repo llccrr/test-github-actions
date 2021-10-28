@@ -127,5 +127,6 @@ dist
 .webpack/
 
 # End of https://www.toptal.com/developers/gitignore/api/node
-
+# Mac
 .DS_Store
+.idea/
